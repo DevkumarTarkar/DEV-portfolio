@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "\"D:\\Node js\\node.exe\" node_modules/vite/bin/vite.js",
-    "build": "\"D:\\Node js\\node.exe\" node_modules/vite/bin/vite.js build",
-    "lint": "oxlint",
-    "preview": "\"D:\\Node js\\node.exe\" node_modules/vite/bin/vite.js preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build"
   },
   "dependencies": {
     "framer-motion": "^12.41.0",
