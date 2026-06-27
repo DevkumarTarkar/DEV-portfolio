@@ -23,7 +23,7 @@ const portfolioData = {
       'I solve problems at the intersection of data, vision, and the web — turning ideas into models, dashboards, and software that scale.',
     tags: ['AI & ML', 'Data Science', 'Computer Vision', 'Full Stack', 'Python', 'Azure', 'Oracle Cloud'],
     timeline: [
-      { year: '2023', event: 'Started B.Tech CSE (AI & ML) at GLA University' },
+      { year: '2024', event: 'Started B.Tech CSE (AI & ML) at GLA University' },
       { year: '2024', event: 'Designed Women Safety IoT System with real-time alerts' },
       { year: '2025', event: 'Built EcoStay AI for sustainable accommodations' },
       { year: '2025', event: 'Developed MaskTIF for thermal infrared face recognition' },
@@ -32,7 +32,7 @@ const portfolioData = {
       { year: '2026', event: 'Created Power BI sales dashboards for business insights' },
     ],
     stats: [
-      { value: '4 Years', label: 'AI & ML Journey' },
+      { value: '3 Years', label: 'AI & ML Journey' },
       { value: '10+', label: 'Projects Built' },
       { value: '5+', label: 'Cloud & Deployment Workflows' },
       { value: 'B.Tech', label: 'Computer Science Engineering' },
