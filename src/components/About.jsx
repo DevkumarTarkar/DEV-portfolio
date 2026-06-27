@@ -63,7 +63,7 @@ const stats = portfolioData.about.stats;
               { /* Replace with your actual professional portrait */ }
               <img
               className="profile-photo"
-                src="/profile-photo.jpeg"
+                src={import.meta.env.BASE_URL + 'profile-photo.jpeg'}
                 alt="Portrait of Dev Kumar Tarkar"
                 style={{
                   width: '100%',

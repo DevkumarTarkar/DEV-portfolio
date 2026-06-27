@@ -233,7 +233,7 @@ export default function Hero() {
 
     { /* Use the yellow portrait here; add it as public/hero-photo.jpg */ }
     <img
-      src="/hero-photo.jpg"
+      src={import.meta.env.BASE_URL + 'hero-photo.jpg'}
       alt="Portrait of Dev Kumar Tarkar"
       style={{
         width: '340px',
