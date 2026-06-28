@@ -250,7 +250,7 @@ const portfolioData = {
   {
     id: '01',
     name: 'MaskTIF',
-    image: import.meta.env.BASE_URL + 'projects/masktif.jpg',
+    image: import.meta.env.BASE_URL + 'projects/masktif.png',
     tagline: 'Masked Thermal Infrared Face Recognition',
     description:
       'Designed and developed an AI-powered thermal infrared face recognition system capable of recognizing masked individuals using Deep Learning, Computer Vision, and PyTorch, improving recognition accuracy in low-visibility environments.',
@@ -271,7 +271,7 @@ const portfolioData = {
   {
     id: '02',
     name: 'Telecom Customer Churn Prediction',
-    image: import.meta.env.BASE_URL + 'projects/telecom.jpg',
+    image: import.meta.env.BASE_URL + 'projects/telecom.png',
     tagline: 'Customer Retention using Machine Learning',
     description:
       'Built an end-to-end Machine Learning solution to predict customer churn using customer behavior analysis, feature engineering, model training, and interactive dashboards for business insights.',
@@ -293,7 +293,7 @@ const portfolioData = {
   {
     id: '03',
     name: 'EcoStay AI',
-    image: import.meta.env.BASE_URL + 'projects/ecostay.jpg',
+    image: import.meta.env.BASE_URL + 'projects/ecostay.png',
     tagline: 'AI Powered Sustainable Tourism Platform',
     description:
       'Developed an AI-powered sustainable tourism platform that recommends eco-friendly accommodations using intelligent recommendation techniques, occupancy forecasting, and environmental impact analysis.',
@@ -314,7 +314,7 @@ const portfolioData = {
   {
     id: '04',
     name: 'Power BI Sales Dashboard',
-    image: import.meta.env.BASE_URL + 'projects/powerbi.jpg',
+    image: import.meta.env.BASE_URL + 'projects/powerbi.png',
     tagline: 'Interactive Business Intelligence Dashboard',
     description:
       'Designed interactive Power BI dashboards to visualize sales performance, KPIs, customer behavior, and business trends for data-driven decision making.',
