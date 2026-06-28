@@ -5,7 +5,7 @@ const portfolioData = {
     lastName: 'Tarkar',
     roles: ['AI & Machine Learning Engineer', 'Data Science Enthusiast', 'Full Stack Developer'],
     description:
-      'Passionate AI & Machine Learning Engineer focused on Deep Learning, Computer Vision, Data Science, and Full Stack Development.',
+      'Building intelligent AI applications and modern web solutions using Machine Learning, Computer Vision, Data Science, Cloud, and Full Stack Development.',
     resumeUrl: 'https://drive.google.com/file/d/1XRdeJ53xZgsILmFEwtrnXyVt8bh00MOh/view?usp=sharing',
     socials: [
       { label: 'GitHub', url: 'https://github.com/DevKumarTarkar' },
@@ -14,23 +14,68 @@ const portfolioData = {
       { label: 'Instagram', url: 'https://instagram.com/dev_rajput_9634' },
     ],
   },
-  about: {
-    intro:
-      'Passionate AI & Machine Learning student interested in Machine Learning, Deep Learning, Computer Vision, Data Science, and Full Stack Development.',
-    study:
-      'I study B.Tech Computer Science Engineering (AI & ML) at GLA University, Mathura, and I focus on end-to-end AI solutions that power intelligent products.',
-    quote:
-      'I solve problems at the intersection of data, vision, and the web — turning ideas into models, dashboards, and software that scale.',
-    tags: ['AI & ML', 'Data Science', 'Computer Vision', 'Full Stack', 'Python', 'Azure', 'Oracle Cloud'],
-    timeline: [
-      { year: '2024', event: 'Started B.Tech CSE (AI & ML) at GLA University' },
-      { year: '2024', event: 'Designed Women Safety IoT System with real-time alerts' },
-      { year: '2025', event: 'Built EcoStay AI for sustainable accommodations' },
-      { year: '2025', event: 'Developed MaskTIF for thermal infrared face recognition' },
-      { year: '2025', event: 'Delivered Telecom Customer Churn Prediction solution' },
-      { year: '2026', event: 'Earned Microsoft Azure and Oracle AI certifications' },
-      { year: '2026', event: 'Created Power BI sales dashboards for business insights' },
-    ],
+  ```javascript
+about: {
+  intro:
+    'I am a B.Tech Computer Science Engineering (AI & ML) student passionate about building intelligent applications using Artificial Intelligence, Machine Learning, Computer Vision, Data Science, and Full Stack Development.',
+
+  study:
+    'Currently pursuing my degree at GLA University, Mathura, I enjoy transforming ideas into real-world AI solutions through modern technologies, cloud platforms, and scalable software engineering practices.',
+
+  quote:
+    'Building intelligent solutions that transform data into meaningful experiences and innovative digital products.',
+
+  tags: [
+    'Artificial Intelligence',
+    'Machine Learning',
+    'Deep Learning',
+    'Computer Vision',
+    'Full Stack Development',
+    'Python',
+    'React.js',
+    'FastAPI',
+    'Azure AI',
+    'Oracle Cloud',
+    'Power BI',
+    'SQL'
+  ],
+
+  timeline: [
+```
+
+  {
+    year: '2024',
+    event: 'Started B.Tech Computer Science Engineering (AI & ML) at GLA University, Mathura.'
+  },
+  {
+    year: '2024',
+    event: 'Earned Microsoft Certified: Azure Fundamentals (AZ-900), building a strong foundation in cloud computing.'
+  },
+  {
+    year: '2025',
+    event: 'Earned Microsoft Azure AI Fundamentals, Azure Data Fundamentals, Oracle AI Foundations, Oracle Generative AI, and Oracle Data Platform certifications.'
+  },
+  {
+    year: '2025',
+    event: 'Built interactive Power BI dashboards for sales performance, customer insights, and data visualization.'
+  },
+  {
+    year: '2026',
+    event: 'Built EcoStay AI, an AI-powered platform promoting sustainable tourism and eco-friendly stays.'
+  },
+  {
+    year: '2026',
+    event: 'Developed MaskTIF, a Deep Learning system for masked thermal infrared face recognition.'
+  },
+  {
+    year: '2026',
+    event: 'Created Telecom Customer Churn Prediction & Customer Segmentation using Machine Learning.'
+  },
+],
+
+
+```
+
     stats: [
       { value: '3 Years', label: 'AI & ML Journey' },
       { value: '10+', label: 'Projects Built' },

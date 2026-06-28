@@ -130,7 +130,7 @@ export default function Hero() {
             onMouseEnter={e => e.target.style.background = 'var(--white)'}
             onMouseLeave={e => e.target.style.background = 'var(--gold)'}
             >
-              View My Work
+              Explore Projects
             </button>
           </Link>
           <a href={portfolioData.hero.resumeUrl} target="_blank" rel="noreferrer">
@@ -174,7 +174,7 @@ export default function Hero() {
               e.currentTarget.style.color = 'var(--parchment)';
             }}
             >
-              Get In Touch
+              Contact Me
             </button>
           </Link>
         </div>
