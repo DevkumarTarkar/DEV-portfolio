@@ -1,403 +1,511 @@
 
 const portfolioData = {
   hero: {
-    welcome: '✦ WELCOME TO MY UNIVERSE',
-    firstName: 'Dev Kumar',
-    lastName: 'Tarkar',
-    roles: [
-      'AI & Machine Learning Engineer',
-      'Data Science Enthusiast',
-      'Full Stack Developer',
-    ],
-    description:
-      'Building intelligent AI applications and modern web solutions using Machine Learning, Computer Vision, Data Science, Cloud, and Full Stack Development.',
+  welcome: '✦ WELCOME TO MY UNIVERSE',
+  firstName: 'Dev Kumar',
+  lastName: 'Tarkar',
 
-    resumeUrl:
-      'https://drive.google.com/file/d/1XRdeJ53xZgsILmFEwtrnXyVt8bh00MOh/view?usp=sharing',
+  roles: [
+    'AI Engineer',
+    'Machine Learning Engineer',
+    'Full Stack Developer',
+  ],
 
-    socials: [
-      { label: 'GitHub', url: 'https://github.com/DevKumarTarkar' },
-      {
-        label: 'LinkedIn',
-        url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/',
-      },
-      { label: 'LeetCode', url: 'https://leetcode.com/u/Dev_2025/' },
-      {
-        label: 'Instagram',
-        url: 'https://instagram.com/dev_rajput_9634',
-      },
-    ],
-  },
+  description:
+    'Passionate about building intelligent AI applications, scalable web solutions, and data-driven products using Machine Learning, Deep Learning, Computer Vision, Cloud, and Full Stack Development.',
+
+  resumeUrl:
+    'https://drive.google.com/file/d/1XRdeJ53xZgsILmFEwtrnXyVt8bh00MOh/view?usp=sharing',
+
+  socials: [
+    {
+      label: 'GitHub',
+      url: 'https://github.com/DevKumarTarkar',
+    },
+    {
+      label: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/',
+    },
+    {
+      label: 'LeetCode',
+      url: 'https://leetcode.com/u/Dev_2025/',
+    },
+    {
+      label: 'Instagram',
+      url: 'https://instagram.com/dev_rajput_9634',
+    },
+  ],
+},
 
   about: {
-    intro:
-      'I am a B.Tech Computer Science Engineering (AI & ML) student passionate about building intelligent applications using Artificial Intelligence, Machine Learning, Computer Vision, Data Science, and Full Stack Development.',
+  intro:
+    'I am a B.Tech Computer Science Engineering (Artificial Intelligence & Machine Learning) student at GLA University, Mathura. I enjoy designing intelligent software that combines Artificial Intelligence, Machine Learning, Data Science, Computer Vision, and Full Stack Development.',
 
-    study:
-      'Currently pursuing my degree at GLA University, Mathura, I enjoy transforming ideas into real-world AI solutions through modern technologies, cloud platforms, and scalable software engineering practices.',
+  study:
+    'My focus is on building scalable AI solutions that solve real-world problems. I continuously explore cloud technologies, backend development, business intelligence, and modern software engineering while working on practical projects.',
 
-    quote:
-      'Building intelligent solutions that transform data into meaningful experiences and innovative digital products.',
+  quote:
+    'Transforming ideas into intelligent products through Artificial Intelligence, data, and modern software engineering.',
 
-    tags: [
-      'Artificial Intelligence',
-      'Machine Learning',
-      'Deep Learning',
-      'Computer Vision',
-      'Full Stack Development',
-      'Python',
-      'React.js',
-      'FastAPI',
-      'Azure AI',
-      'Oracle Cloud',
-      'Power BI',
-      'SQL',
-    ],
+  tags: [
+    'Artificial Intelligence',
+    'Machine Learning',
+    'Deep Learning',
+    'Computer Vision',
+    'Python',
+    'React',
+    'FastAPI',
+    'Flask',
+    'Azure',
+    'Oracle Cloud',
+    'Power BI',
+    'SQL',
+  ],
 
-    timeline: [
-      {
-        year: '2024',
-        event:
-          'Started B.Tech Computer Science Engineering (AI & ML) at GLA University, Mathura.',
-      },
-      {
-        year: '2024',
-        event:
-          'Earned Microsoft Certified: Azure Fundamentals (AZ-900), building a strong foundation in cloud computing.',
-      },
-      {
-        year: '2025',
-        event:
-          'Earned Microsoft Azure AI Fundamentals, Azure Data Fundamentals, Oracle AI Foundations, Oracle Generative AI, and Oracle Data Platform certifications.',
-      },
-      {
-        year: '2025',
-        event:
-          'Built interactive Power BI dashboards for sales performance, customer insights, and data visualization.',
-      },
-      {
-        year: '2026',
-        event:
-          'Built EcoStay AI, an AI-powered platform promoting sustainable tourism and eco-friendly stays.',
-      },
-      {
-        year: '2026',
-        event:
-          'Developed MaskTIF, a Deep Learning system for masked thermal infrared face recognition.',
-      },
-      {
-        year: '2026',
-        event:
-          'Created Telecom Customer Churn Prediction & Customer Segmentation using Machine Learning.',
-      },
-    ],
+  timeline: [
+    {
+      year: '2024',
+      event:
+        'Started B.Tech Computer Science Engineering (AI & ML) at GLA University, Mathura.',
+    },
+    {
+      year: '2024',
+      event:
+        'Earned Microsoft Certified: Azure Fundamentals (AZ-900).',
+    },
+    {
+      year: '2025',
+      event:
+        'Earned Microsoft Azure AI Fundamentals, Azure Data Fundamentals, Oracle AI Foundations, Oracle Generative AI, and Oracle Data Platform certifications.',
+    },
+    {
+      year: '2025',
+      event:
+        'Built interactive Power BI dashboards for business intelligence and analytics.',
+    },
+    {
+      year: '2026',
+      event:
+        'Developed MaskTIF – Deep Learning based Thermal Face Recognition System.',
+    },
+    {
+      year: '2026',
+      event:
+        'Built EcoStay AI – AI Powered Sustainable Tourism Platform.',
+    },
+    {
+      year: '2026',
+      event:
+        'Developed Telecom Customer Churn Prediction & Customer Segmentation System.',
+    },
+  ],
 
-    stats: [
-      { value: '15+', label: 'Projects Completed' },
-      { value: '7+', label: 'Professional Certifications' },
-      { value: '3+', label: 'Hackathons & Events' },
-      { value: 'B.Tech', label: 'CSE (AI & ML)' },
-    ],
-  },
+  stats: [
+    {
+      value: '6+',
+      label: 'Projects Completed',
+    },
+    {
+      value: '9+',
+      label: 'Professional Certifications',
+    },
+    {
+      value: '6+',
+      label: 'Leadership Roles',
+    },
+    {
+      value: 'B.Tech',
+      label: 'AI & ML',
+    },
+  ],
+},
 
   skills: {
-    groups: [
-      {
-        category: 'Languages',
-        icon: '{ }',
-        skills: [
-          'Java',
-          'Python',
-          'C',
-          'SQL',
-          'JavaScript',
-          'HTML',
-          'CSS',
-        ],
-      },
-      {
-        category: 'Frameworks & Libraries',
-        icon: '∿',
-        skills: [
-          'Flask',
-          'PyTorch',
-          'NumPy',
-          'Pandas',
-          'Matplotlib',
-          'Scikit-learn',
-        ],
-      },
-      {
-        category: 'Tools',
-        icon: '◈',
-        skills: [
-          'Git',
-          'GitHub',
-          'MySQL',
-          'Power BI',
-          'Docker',
-          'Jupyter Notebook',
-          'VS Code',
-          'Arduino IDE',
-        ],
-      },
-      {
-        category: 'Platforms',
-        icon: '↑',
-        skills: ['Windows', 'Linux', 'Google Colab', 'ThingWorx'],
-      },
-      {
-        category: 'Core Concepts',
-        icon: '◉',
-        skills: [
-          'Data Structures',
-          'Algorithms',
-          'OOP',
-          'DBMS',
-          'Operating Systems',
-          'CI/CD',
-        ],
-      },
-      {
-        category: 'Data Skills',
-        icon: '⟳',
-        skills: [
-          'Data Analysis',
-          'Data Cleaning',
-          'Data Visualization',
-          'EDA',
-          'Dashboard Development',
-        ],
-      },
-    ],
+  groups: [
+    {
+      category: 'Languages',
+      icon: '💻',
+      skills: [
+        'Java',
+        'Python',
+        'C',
+        'SQL',
+        'JavaScript',
+        'HTML',
+        'CSS',
+      ],
+    },
 
-    certifications: [
-      { title: 'Microsoft Azure Fundamentals', url: '' },
-      { title: 'Microsoft Azure AI Fundamentals', url: '' },
-      { title: 'Microsoft Azure Data Fundamentals', url: '' },
-      { title: 'Oracle OCI AI Foundations Associate', url: '' },
-      { title: 'Oracle Generative AI Professional', url: '' },
-      { title: 'Oracle Data Platform', url: '' },
-      { title: 'NPTEL Software Engineering', url: '' },
-    ],
-  },
+    {
+      category: 'Frameworks & Libraries',
+      icon: '🤖',
+      skills: [
+        'Flask',
+        'FastAPI',
+        'PyTorch',
+        'Scikit-learn',
+        'NumPy',
+        'Pandas',
+        'Matplotlib',
+      ],
+    },
 
+    {
+      category: 'Tools',
+      icon: '🛠️',
+      skills: [
+        'Git',
+        'GitHub',
+        'VS Code',
+        'Docker',
+        'Power BI',
+        'MySQL',
+        'Jupyter Notebook',
+        'Arduino IDE',
+      ],
+    },
 
-  projects: [
     {
-      id: '01',
-      name: 'MaskTIF',
-      tagline: 'Masked Thermal Infrared Face Recognition',
-      description:
-        'Developed a robust face recognition pipeline using thermal infrared imaging and mask-aware preprocessing, with a PyTorch model optimized for low-visibility identity verification.',
-      tech: ['Python', 'PyTorch', 'OpenCV', 'Computer Vision', 'FastAPI'],
-      type: 'AI / CV',
-      status: 'RESEARCH',
-      github: 'https://github.com/DevKumarTarkar/MaskTIF',
-      live: null,
+      category: 'Platforms',
+      icon: '☁️',
+      skills: [
+        'Windows',
+        'Linux',
+        'Azure',
+        'Oracle Cloud',
+        'Google Colab',
+        'ThingWorx',
+      ],
     },
+
     {
-      id: '02',
-      name: 'Telecom Customer Churn Prediction',
-      tagline: 'Predictive analytics for customer retention',
-      description:
-        'Built a churn prediction model using customer behavior and service data, with feature engineering, tree-based modeling, and dashboard-ready retention insights.',
-      tech: ['Python', 'Scikit-learn', 'Pandas', 'NumPy', 'SQL', 'Power BI'],
-      type: 'Data Science',
-      status: 'DEPLOYED',
-      github: 'https://github.com/DevKumarTarkar/Telecom-Churn-Prediction',
-      live: null,
+      category: 'Core Concepts',
+      icon: '📚',
+      skills: [
+        'Data Structures',
+        'Algorithms',
+        'OOP',
+        'DBMS',
+        'Operating Systems',
+        'Computer Networks',
+        'CI/CD',
+      ],
     },
+
     {
-      id: '03',
-      name: 'EcoStay AI',
-      tagline: 'Smart sustainability assistant for eco-friendly stays',
-      description:
-        'Created an AI-powered recommendation engine for sustainable accommodations, combining environmental scoring, occupancy forecasting, and a Flask dashboard for impact tracking.',
-      tech: ['Python', 'Flask', 'Machine Learning', 'Azure', 'React'],
-      type: 'AI Product',
-      status: 'PROTOTYPE',
-      github: 'https://github.com/DevKumarTarkar/EcoStay-AI',
-      live: null,
-    },
-    {
-      id: '04',
-      name: 'Women Safety IoT System',
-      tagline: 'IoT-enabled personal safety solution',
-      description:
-        'Designed a connected safety system with real-time alerts, location tracking, and emergency notification, powering secure incident response workflows.',
-      tech: ['IoT', 'Python', 'Azure', 'REST APIs', 'React'],
-      type: 'Embedded & Web',
-      status: 'PROTOTYPE',
-      github: 'https://github.com/DevKumarTarkar/Women-Safety-IoT',
-      live: null,
-    },
-    {
-      id: '05',
-      name: 'Power BI Sales Dashboard',
-      tagline: 'Interactive dashboard for sales performance insights',
-      description:
-        'Built a Power BI dashboard to visualize sales metrics, customer segments, and trend analysis while automating data refresh for executive decision support.',
-      tech: ['Power BI', 'SQL', 'Data Visualization', 'Azure'],
-      type: 'BI & Analytics',
-      status: 'LIVE',
-      github: 'https://github.com/DevKumarTarkar/PowerBI-Sales-Dashboard',
-      live: null,
+      category: 'Data Skills',
+      icon: '📊',
+      skills: [
+        'Data Analysis',
+        'Data Cleaning',
+        'Data Visualization',
+        'EDA',
+        'Dashboard Development',
+      ],
     },
   ],
-  creative: [
+
+  certifications: [
     {
-      title: 'MaskTIF Research',
-      subtitle: 'Thermal Infrared Face Recognition',
-      platform: 'GitHub',
-      year: '2025',
-      description:
-        'A research prototype handling masked subjects with thermal imagery, combining computer vision and deep learning for secure identity recognition.',
-      icon: '◈',
-      url: 'https://github.com/DevKumarTarkar/MaskTIF',
-      color: 'var(--gold)',
+      title: 'Microsoft Certified: Azure Fundamentals',
+      url: 'https://drive.google.com/file/d/1NJfUy8Tfp_IIEemdks9N2ozIoa-2DsfS/view',
     },
     {
-      title: 'Telecom Churn Analysis',
-      subtitle: 'Customer Retention Prediction',
-      platform: 'GitHub',
-      year: '2025',
-      description:
-        'An analytics pipeline predicting churn risk, delivering actionable insights for customer success and revenue retention.',
-      icon: '◎',
-      url: 'https://github.com/DevKumarTarkar/Telecom-Churn-Prediction',
-      color: 'var(--nebula)',
+      title: 'Microsoft Certified: Azure AI Fundamentals',
+      url: 'https://learn.microsoft.com/en-us/users/devkumartarkar-7807/credentials/1699855a06f475c7',
     },
     {
-      title: 'EcoStay AI',
-      subtitle: 'Sustainable Accommodation Assistant',
-      platform: 'GitHub',
-      year: '2025',
-      description:
-        'AI-powered recommendations for eco-friendly stays with environmental scoring and occupancy forecasting.',
-      icon: '◉',
-      url: 'https://github.com/DevKumarTarkar/EcoStay-AI',
-      color: 'var(--gold)',
+      title: 'Microsoft Certified: Azure Data Fundamentals',
+      url: 'https://learn.microsoft.com/en-us/users/devkumartarkar-2361/credentials/5f854c2d41bfa44e',
     },
     {
-      title: 'Women Safety IoT',
-      subtitle: 'Connected Personal Safety System',
-      platform: 'GitHub',
-      year: '2025',
-      description:
-        'A connected IoT safety device with location alerts and emergency notification workflows for secure response.',
-      icon: '✦',
-      url: 'https://github.com/DevKumarTarkar/Women-Safety-IoT',
-      color: '#B8A9C9',
+      title: 'Microsoft Certified: Azure Developer Associate',
+      url: '',
     },
     {
-      title: 'Power BI Sales Dashboard',
-      subtitle: 'Interactive Business Insights',
-      platform: 'GitHub',
-      year: '2026',
-      description:
-        'A dynamic dashboard visualizing sales performance, customer segmentation, and executive KPIs.',
-      icon: '🏆',
-      url: 'https://github.com/DevKumarTarkar/PowerBI-Sales-Dashboard',
-      color: '#B8A9C9',
-    },
-    {
-      title: 'Microsoft Azure Certifications',
-      subtitle: 'Cloud & AI Credentials',
-      platform: 'LinkedIn',
-      year: '2026',
-      description:
-        'Validated Azure and AI proficiency through multiple Microsoft and Oracle certifications.',
-      icon: '◫',
-      url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/',
-      color: 'var(--parchment-dim)',
-    },
-  ],
-  achievements: [
-    {
-      title: 'B.Tech Computer Science Engineering (AI & ML)',
-      detail: 'GLA University, Mathura — AI & Machine Learning specialization',
-      year: '2023–27',
-      category: 'Education',
-    },
-    {
-      title: 'Microsoft Azure Fundamentals',
-      detail: 'AZ-900 certified in cloud fundamentals',
-      year: '2025',
-      category: 'Certifications',
-    },
-    {
-      title: 'Microsoft Azure AI Fundamentals',
-      detail: 'Certified in AI concepts on Azure',
-      year: '2025',
-      category: 'Certifications',
-    },
-    {
-      title: 'Microsoft Azure Data Fundamentals',
-      detail: 'Certified in core data concepts on Azure',
-      year: '2025',
-      category: 'Certifications',
+      title: 'Microsoft Certified: Power BI Data Analyst Associate',
+      url: '',
     },
     {
       title: 'Oracle OCI AI Foundations Associate',
-      detail: 'Certified in foundational AI services on Oracle Cloud',
-      year: '2026',
-      category: 'Certifications',
+      url: '',
     },
     {
-      title: 'Oracle Generative AI',
-      detail: 'Certified in generative AI use cases and best practices',
-      year: '2026',
-      category: 'Certifications',
+      title: 'Oracle Generative AI Professional',
+      url: '',
     },
     {
       title: 'Oracle Data Platform',
-      detail: 'Certified in Oracle Cloud data services and analytics',
-      year: '2026',
-      category: 'Certifications',
+      url: '',
     },
     {
       title: 'NPTEL Software Engineering',
-      detail: 'Completed a professional software engineering certification course',
-      year: '2026',
-      category: 'Certifications',
-    },
-    {
-      title: 'MaskTIF — Thermal Face Recognition',
-      detail: 'Developed a masked infrared face recognition prototype for low-visibility environments',
-      year: '2025',
-      category: 'Projects',
-    },
-    {
-      title: 'Telecom Customer Churn Prediction',
-      detail: 'Built a predictive analytics solution for customer retention',
-      year: '2025',
-      category: 'Projects',
+      url: 'https://drive.google.com/file/d/1A1FLXnr9yz65-dt8PVRAfmWBid4Y4eT4/view',
     },
   ],
-  communities: [
-    {
-      name: 'AI & ML Projects',
-      role: '5+ deployed prototypes',
-      members: '5+',
-      desc: 'MaskTIF, Telecom Churn Prediction, EcoStay AI, Women Safety IoT, and Power BI dashboards.',
-      year: '2026',
-    },
-    {
-      name: 'Cloud Credentials',
-      role: 'Azure & Oracle certified',
-      members: '7',
-      desc: 'Microsoft and Oracle certifications in Azure, AI, Data, OCI AI, Generative AI, and Data Platform.',
-      year: '2026',
-    },
-    {
-      name: 'Full Stack Delivery',
-      role: 'End-to-end systems',
-      members: 'Production-ready',
-      desc: 'Built APIs, dashboards, ML models, and deployment pipelines with React, Flask, FastAPI, Docker, and Azure.',
-      year: '2026',
-    },
-  ],
+},
+
+
+  projects: [
+  {
+    id: '01',
+    name: 'MaskTIF',
+    image: import.meta.env.BASE_URL + 'projects/masktif.jpg',
+
+    tagline: 'Masked Thermal Infrared Face Recognition',
+
+    description:
+      'Designed and developed an AI-powered thermal infrared face recognition system capable of recognizing masked individuals using Deep Learning, Computer Vision, and PyTorch. The project focuses on improving recognition accuracy in low-visibility environments.',
+
+    tech: [
+      'Python',
+      'PyTorch',
+      'OpenCV',
+      'FastAPI',
+      'Deep Learning',
+    ],
+
+    type: 'AI / Computer Vision',
+
+    year: '2026',
+
+    status: 'Completed',
+
+    github:
+      'https://github.com/DevKumarTarkar/MaskTIF',
+
+    live: null,
+  },
+
+  {
+    id: '02',
+    name: 'Telecom Customer Churn Prediction',
+
+    image: import.meta.env.BASE_URL + 'projects/telecom.jpg',
+
+    tagline: 'Customer Retention using Machine Learning',
+
+    description:
+      'Built an end-to-end Machine Learning solution to predict customer churn using customer behavior analysis, feature engineering, model training, and interactive Power BI dashboards for business insights.',
+
+    tech: [
+      'Python',
+      'Scikit-learn',
+      'Pandas',
+      'NumPy',
+      'SQL',
+      'Power BI',
+    ],
+
+    type: 'Machine Learning',
+
+    year: '2026',
+
+    status: 'Completed',
+
+    github:
+      'https://github.com/DevKumarTarkar/Telecom-Churn-Prediction',
+
+    live: null,
+  },
+
+  {
+    id: '03',
+
+    name: 'EcoStay AI',
+
+    image: import.meta.env.BASE_URL + 'projects/ecostay.jpg',
+
+    tagline: 'AI Powered Sustainable Tourism Platform',
+
+    description:
+      'Developed an AI-powered sustainable tourism platform that recommends eco-friendly accommodations using intelligent recommendation techniques, occupancy forecasting, and environmental impact analysis.',
+
+    tech: [
+      'Python',
+      'Flask',
+      'Machine Learning',
+      'React',
+      'Azure',
+    ],
+
+    type: 'Artificial Intelligence',
+
+    year: '2026',
+
+    status: 'Completed',
+
+    github:
+      'https://github.com/DevKumarTarkar/EcoStay-AI',
+
+    live: null,
+  },
+
+  {
+    id: '04',
+
+    name: 'Power BI Sales Dashboard',
+
+    image: import.meta.env.BASE_URL + 'projects/powerbi.jpg',
+
+    tagline: 'Interactive Business Intelligence Dashboard',
+
+    description:
+      'Designed interactive Power BI dashboards to visualize sales performance, customer behavior, KPIs, and business trends for data-driven decision-making.',
+
+    tech: [
+      'Power BI',
+      'SQL',
+      'Excel',
+      'DAX',
+      'Data Visualization',
+    ],
+
+    type: 'Business Intelligence',
+
+    year: '2025',
+
+    status: 'Completed',
+
+    github:
+      'https://github.com/DevKumarTarkar/PowerBI-Sales-Dashboard',
+
+    live: null,
+  },
+],
+ 
+  achievements: [
+  // Leadership
+  {
+    title: 'Deputy Head Finance',
+    detail:
+      'Leading financial planning, budgeting, sponsorship coordination, and event management for Literario Club, GLA University.',
+    year: '2026 – Present',
+    category: 'Leadership',
+  },
+  {
+    title: 'Coordinator – TechNavya',
+    detail:
+      'Coordinated technical events and managed participants during the university tech fest.',
+    year: '2025',
+    category: 'Leadership',
+  },
+  {
+    title: 'Coordinator – Deviathon National Hackathon',
+    detail:
+      'Managed event operations, logistics, and participant coordination.',
+    year: '2025',
+    category: 'Leadership',
+  },
+  {
+    title: 'Coordinator – Smart India Hackathon (Internal)',
+    detail:
+      'Supported planning and execution of the internal SIH round.',
+    year: '2025',
+    category: 'Leadership',
+  },
+  {
+    title: 'Coordinator – Srijan',
+    detail:
+      'Successfully coordinated university events.',
+    year: '2024',
+    category: 'Leadership',
+  },
+  {
+    title: 'Coordinator – Srijan',
+    detail:
+      'Led registrations, logistics, and participant engagement.',
+    year: '2026',
+    category: 'Leadership',
+  },
+
+  // Certifications
+  {
+    title: 'Microsoft Certified: Azure Fundamentals (AZ-900)',
+    detail: 'Microsoft Certification',
+    year: '2024',
+    category: 'Certification',
+  },
+  {
+    title: 'Microsoft Certified: Azure AI Fundamentals',
+    detail: 'Microsoft Certification',
+    year: '2025',
+    category: 'Certification',
+  },
+  {
+    title: 'Microsoft Certified: Azure Data Fundamentals',
+    detail: 'Microsoft Certification',
+    year: '2025',
+    category: 'Certification',
+  },
+  {
+    title: 'Microsoft Certified: Azure Developer Associate',
+    detail: 'Microsoft Certification',
+    year: '2026',
+    category: 'Certification',
+  },
+  {
+    title: 'Microsoft Certified: Power BI Data Analyst Associate',
+    detail: 'Microsoft Certification',
+    year: '2026',
+    category: 'Certification',
+  },
+  {
+    title: 'Oracle OCI AI Foundations Associate',
+    detail: 'Oracle Certification',
+    year: '2025',
+    category: 'Certification',
+  },
+  {
+    title: 'Oracle Generative AI Professional',
+    detail: 'Oracle Certification',
+    year: '2025',
+    category: 'Certification',
+  },
+  {
+    title: 'Oracle Data Platform',
+    detail: 'Oracle Certification',
+    year: '2025',
+    category: 'Certification',
+  },
+  {
+    title: 'NPTEL Software Engineering',
+    detail: 'NPTEL Certification',
+    year: '2025',
+    category: 'Certification',
+  },
+
+  // Projects
+  {
+    title: 'MaskTIF',
+    detail:
+      'AI-powered Thermal Infrared Face Recognition System using Deep Learning.',
+    year: '2026',
+    category: 'Project',
+  },
+  {
+    title: 'Telecom Customer Churn Prediction',
+    detail:
+      'Machine Learning solution for customer churn prediction and retention.',
+    year: '2026',
+    category: 'Project',
+  },
+  {
+    title: 'EcoStay AI',
+    detail:
+      'AI-powered sustainable tourism recommendation platform.',
+    year: '2026',
+    category: 'Project',
+  },
+  {
+    title: 'Power BI Sales Dashboard',
+    detail:
+      'Interactive business intelligence dashboard with KPIs and analytics.',
+    year: '2025',
+    category: 'Project',
+  },
+],
+  
   contact: {
     email: 'devkumartarkar3@gmail.com',
     phone: '+91 827331XXXX',
