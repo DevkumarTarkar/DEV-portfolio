@@ -4,133 +4,285 @@ const projects = portfolioData.projects;
 
 export default function Projects() {
   return (
-    <section id="projects" className="section" style={{ position: 'relative', zIndex: 1 }}>
+    <section
+      id="projects"
+      className="section"
+      style={{ position: 'relative', zIndex: 1 }}
+    >
       <div className="container">
-        <div className="section-label">Technical Work</div>
-        <h2 className="section-title">Selected <em>Projects</em></h2>
+        <div className="section-label">Featured Work</div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
+        <h2 className="section-title">
+          Selected <em>Projects</em>
+        </h2>
+
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit,minmax(380px,1fr))',
+            gap: '32px',
+          }}
+        >
           {projects.map((p) => (
             <div
               key={p.id}
               style={{
-                display: 'grid',
-                gridTemplateColumns: '72px 1fr 120px',
-                gap: '32px',
-                alignItems: 'start',
-                padding: '40px 32px',
                 background: 'var(--card-bg)',
-                border: '1px solid rgba(201,169,110,0.06)',
-                transition: 'border-color 0.3s, background 0.3s',
+                border: '1px solid rgba(201,169,110,.08)',
+                overflow: 'hidden',
+                transition: '.35s',
               }}
               onMouseEnter={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(201,169,110,0.2)';
-                e.currentTarget.style.background = 'var(--midnight)';
+                e.currentTarget.style.transform = 'translateY(-8px)';
+                e.currentTarget.style.borderColor =
+                  'rgba(201,169,110,.25)';
+                e.currentTarget.style.boxShadow =
+                  '0 20px 40px rgba(0,0,0,.35)';
               }}
               onMouseLeave={(e) => {
-                e.currentTarget.style.borderColor = 'rgba(201,169,110,0.06)';
-                e.currentTarget.style.background = 'var(--card-bg)';
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.borderColor =
+                  'rgba(201,169,110,.08)';
+                e.currentTarget.style.boxShadow = 'none';
               }}
             >
-              {/* Number */}
-              <div style={{
-                fontFamily: 'var(--font-display)', fontSize: '3.2rem',
-                color: 'rgba(201,169,110,0.1)', fontWeight: 300,
-                lineHeight: 1, userSelect: 'none', paddingTop: '4px',
-              }}>{p.id}</div>
+              {/* Image */}
 
-              {/* Content */}
-              <div>
-                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '8px', flexWrap: 'wrap' }}>
-                  <h3 style={{ fontFamily: 'var(--font-display)', fontSize: '1.75rem', fontWeight: 500, color: 'var(--white)' }}>{p.name}</h3>
-                  <span style={{
-                    fontFamily: 'var(--font-mono)', fontSize: '9px',
-                    padding: '3px 8px', background: 'rgba(74,127,165,0.12)',
-                    color: 'var(--nebula)', border: '1px solid rgba(74,127,165,0.25)',
-                    letterSpacing: '0.1em',
-                  }}>{p.status}</span>
-                  <span style={{
-                    fontFamily: 'var(--font-mono)', fontSize: '9px',
-                    padding: '3px 8px', background: 'rgba(201,169,110,0.08)',
-                    color: 'var(--gold)', border: '1px solid rgba(201,169,110,0.2)',
-                    letterSpacing: '0.1em',
-                  }}>{p.type}</span>
+              <img
+                src={p.image}
+                alt={p.name}
+                style={{
+                  width: '100%',
+                  height: '240px',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+              />
+
+              <div
+                style={{
+                  padding: '28px',
+                }}
+              >
+                {/* Category */}
+
+                <span
+                  style={{
+                    display: 'inline-block',
+                    padding: '5px 10px',
+                    fontSize: '10px',
+                    letterSpacing: '.12em',
+                    color: 'var(--gold)',
+                    border: '1px solid rgba(201,169,110,.25)',
+                    marginBottom: '18px',
+                  }}
+                >
+                  {p.type}
+                </span>
+
+                <h3
+                  style={{
+                    fontSize: '1.7rem',
+                    color: 'white',
+                    marginBottom: '12px',
+                    fontFamily: 'var(--font-display)',
+                  }}
+                >
+                  {p.name}
+                </h3>
+
+                <div
+                  style={{
+                    color: 'var(--gold)',
+                    fontSize: '12px',
+                    marginBottom: '16px',
+                    letterSpacing: '.08em',
+                  }}
+                >
+                  {p.tagline}
                 </div>
 
-                <div style={{ fontFamily: 'var(--font-mono)', fontSize: '11px', color: 'var(--gold)', marginBottom: '14px', opacity: 0.75 }}>{p.tagline}</div>
+                <p
+                  style={{
+                    color: 'var(--parchment-dim)',
+                    lineHeight: 1.8,
+                    marginBottom: '22px',
+                  }}
+                >
+                  {p.description}
+                </p>
 
-                <p style={{ fontFamily: 'var(--font-body)', fontSize: '14px', color: 'var(--parchment-dim)', lineHeight: 1.8, maxWidth: '560px', marginBottom: '20px' }}>{p.description}</p>
+                {/* Tech */}
 
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
-                  {p.tech.map((t) => (
-                    <span key={t} style={{
-                      fontFamily: 'var(--font-mono)', fontSize: '11px',
-                      color: 'var(--parchment-dim)', padding: '3px 8px',
-                      border: '1px solid rgba(232,224,208,0.08)',
-                    }}>{t}</span>
+                <div
+                  style={{
+                    display: 'flex',
+                    flexWrap: 'wrap',
+                    gap: '8px',
+                    marginBottom: '22px',
+                  }}
+                >
+                  {p.tech.map((tech) => (
+                    <span
+                      key={tech}
+                      style={{
+                        padding: '5px 10px',
+                        border:
+                          '1px solid rgba(201,169,110,.12)',
+                        fontSize: '11px',
+                        color: 'var(--parchment)',
+                      }}
+                    >
+                      {tech}
+                    </span>
                   ))}
                 </div>
-              </div>
 
-              {/* Links */}
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', paddingTop: '6px' }}>
-                <a href={p.github} target="_blank" rel="noreferrer" style={{
-                  fontFamily: 'var(--font-mono)', fontSize: '11px',
-                  color: 'var(--parchment-dim)', letterSpacing: '0.08em',
-                  display: 'flex', alignItems: 'center', gap: '6px',
-                  transition: 'color 0.2s', textDecoration: 'none',
-                  padding: '8px 12px', border: '1px solid rgba(232,224,208,0.08)',
-                }}
-                onMouseEnter={(e) => { e.currentTarget.style.color = 'var(--gold)'; e.currentTarget.style.borderColor = 'rgba(201,169,110,0.3)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.color = 'var(--parchment-dim)'; e.currentTarget.style.borderColor = 'rgba(232,224,208,0.08)'; }}
-                >
-                  ↗ Code
-                </a>
-                {p.live && (
-                  <a href={p.live} target="_blank" rel="noreferrer" style={{
-                    fontFamily: 'var(--font-mono)', fontSize: '11px',
-                    color: 'var(--nebula)', letterSpacing: '0.08em',
-                    display: 'flex', alignItems: 'center', gap: '6px',
-                    transition: 'color 0.2s', textDecoration: 'none',
-                    padding: '8px 12px', background: 'rgba(74,127,165,0.08)',
-                    border: '1px solid rgba(74,127,165,0.2)',
+                {/* Year */}
+
+                <div
+                  style={{
+                    display: 'flex',
+                    justifyContent: 'space-between',
+                    alignItems: 'center',
+                    marginBottom: '22px',
                   }}
-                  onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(74,127,165,0.15)'; }}
-                  onMouseLeave={(e) => { e.currentTarget.style.background = 'rgba(74,127,165,0.08)'; }}
+                >
+                  <span
+                    style={{
+                      color: 'var(--gold)',
+                      fontSize: '11px',
+                      letterSpacing: '.15em',
+                    }}
                   >
-                    ⬡ Live
+                    {p.year}
+                  </span>
+
+                  <span
+                    style={{
+                      color: 'var(--nebula)',
+                      fontSize: '11px',
+                    }}
+                  >
+                    {p.status}
+                  </span>
+                </div>
+
+                {/* Buttons */}
+                                <div
+                  style={{
+                    display: 'flex',
+                    gap: '12px',
+                    flexWrap: 'wrap',
+                  }}
+                >
+                  <a
+                    href={p.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      flex: 1,
+                      textAlign: 'center',
+                      padding: '12px',
+                      textDecoration: 'none',
+                      color: 'var(--gold)',
+                      border: '1px solid rgba(201,169,110,.3)',
+                      fontFamily: 'var(--font-mono)',
+                      fontSize: '11px',
+                      letterSpacing: '.08em',
+                      transition: '.3s',
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.background =
+                        'rgba(201,169,110,.12)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.background =
+                        'transparent';
+                    }}
+                  >
+                    💻 Source Code
                   </a>
-                )}
+
+                  <a
+                    href={p.live || '#'}
+                    target="_blank"
+                    rel="noreferrer"
+                    style={{
+                      flex: 1,
+                      textAlign: 'center',
+                      padding: '12px',
+                      textDecoration: 'none',
+                      color: 'white',
+                      background: 'var(--gold)',
+                      border: '1px solid var(--gold)',
+                      fontFamily: 'var(--font-mono)',
+                      fontSize: '11px',
+                      letterSpacing: '.08em',
+                      transition: '.3s',
+                      pointerEvents: p.live ? 'auto' : 'none',
+                      opacity: p.live ? 1 : 0.55,
+                    }}
+                  >
+                    {p.live ? '🚀 Live Demo' : 'Coming Soon'}
+                  </a>
+                </div>
               </div>
             </div>
           ))}
         </div>
 
-        <div style={{ marginTop: '36px', textAlign: 'center' }}>
-          <a href="https://github.com/DevKumarTarkar" target="_blank" rel="noreferrer" style={{
-            fontFamily: 'var(--font-mono)', fontSize: '11px',
-            color: 'var(--parchment-dim)', letterSpacing: '0.2em',
-            textTransform: 'uppercase', padding: '14px 40px',
-            border: '1px solid rgba(232,224,208,0.1)',
-            display: 'inline-block', transition: 'all 0.3s',
+        {/* View All */}
+
+        <div
+          style={{
+            marginTop: '60px',
+            textAlign: 'center',
           }}
-          onMouseEnter={(e) => { e.currentTarget.style.borderColor = 'var(--gold)'; e.currentTarget.style.color = 'var(--gold)'; }}
-          onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(232,224,208,0.1)'; e.currentTarget.style.color = 'var(--parchment-dim)'; }}
+        >
+          <a
+            href="https://github.com/DevKumarTarkar"
+            target="_blank"
+            rel="noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: '16px 40px',
+              border: '1px solid rgba(201,169,110,.3)',
+              color: 'var(--gold)',
+              textDecoration: 'none',
+              letterSpacing: '.18em',
+              fontFamily: 'var(--font-mono)',
+              transition: '.3s',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.background =
+                'rgba(201,169,110,.12)';
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.background =
+                'transparent';
+            }}
           >
-            View All Projects on GitHub ↗
+            View All Projects →
           </a>
         </div>
       </div>
 
       <style>{`
-        @media (max-width: 768px) {
-          #projects .container > div > div {
-            grid-template-columns: 1fr !important;
-            gap: 16px !important;
-            padding: 28px 20px !important;
+        @media(max-width:900px){
+
+          #projects .container>div:last-of-type{
+            grid-template-columns:1fr!important;
           }
-          #projects .container > div > div > div:first-child { display: none; }
-          #projects .container > div > div > div:last-child { flex-direction: row !important; flex-wrap: wrap; }
+
+        }
+
+        @media(max-width:768px){
+
+          #projects img{
+            height:220px!important;
+          }
+
         }
       `}</style>
     </section>

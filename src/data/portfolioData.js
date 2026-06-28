@@ -12,7 +12,7 @@ const portfolioData = {
   ],
 
   description:
-    'Passionate about building intelligent AI applications, scalable web solutions, and data-driven products using Machine Learning, Deep Learning, Computer Vision, Cloud, and Full Stack Development.',
+  'AI & Machine Learning Engineer passionate about building intelligent software, scalable web applications, and cloud-powered solutions that create real-world impact.',
 
   resumeUrl:
     'https://drive.google.com/file/d/1XRdeJ53xZgsILmFEwtrnXyVt8bh00MOh/view?usp=sharing',
@@ -251,12 +251,9 @@ const portfolioData = {
     id: '01',
     name: 'MaskTIF',
     image: import.meta.env.BASE_URL + 'projects/masktif.jpg',
-
     tagline: 'Masked Thermal Infrared Face Recognition',
-
     description:
-      'Designed and developed an AI-powered thermal infrared face recognition system capable of recognizing masked individuals using Deep Learning, Computer Vision, and PyTorch. The project focuses on improving recognition accuracy in low-visibility environments.',
-
+      'Designed and developed an AI-powered thermal infrared face recognition system capable of recognizing masked individuals using Deep Learning, Computer Vision, and PyTorch, improving recognition accuracy in low-visibility environments.',
     tech: [
       'Python',
       'PyTorch',
@@ -264,30 +261,20 @@ const portfolioData = {
       'FastAPI',
       'Deep Learning',
     ],
-
-    type: 'AI / Computer Vision',
-
+    type: '🤖 AI / Computer Vision',
     year: '2026',
-
-    status: 'Completed',
-
-    github:
-      'https://github.com/DevKumarTarkar/MaskTIF',
-
-    live: null,
+    status: 'Research Project',
+    github: 'https://github.com/DevKumarTarkar/MaskTIF',
+    live: '#',
   },
 
   {
     id: '02',
     name: 'Telecom Customer Churn Prediction',
-
     image: import.meta.env.BASE_URL + 'projects/telecom.jpg',
-
     tagline: 'Customer Retention using Machine Learning',
-
     description:
-      'Built an end-to-end Machine Learning solution to predict customer churn using customer behavior analysis, feature engineering, model training, and interactive Power BI dashboards for business insights.',
-
+      'Built an end-to-end Machine Learning solution to predict customer churn using customer behavior analysis, feature engineering, model training, and interactive dashboards for business insights.',
     tech: [
       'Python',
       'Scikit-learn',
@@ -296,63 +283,41 @@ const portfolioData = {
       'SQL',
       'Power BI',
     ],
-
-    type: 'Machine Learning',
-
+    type: '📊 Machine Learning',
     year: '2026',
-
     status: 'Completed',
-
-    github:
-      'https://github.com/DevKumarTarkar/Telecom-Churn-Prediction',
-
-    live: null,
+    github: 'https://github.com/DevKumarTarkar/Telecom-Churn-Prediction',
+    live: '#',
   },
 
   {
     id: '03',
-
     name: 'EcoStay AI',
-
     image: import.meta.env.BASE_URL + 'projects/ecostay.jpg',
-
     tagline: 'AI Powered Sustainable Tourism Platform',
-
     description:
       'Developed an AI-powered sustainable tourism platform that recommends eco-friendly accommodations using intelligent recommendation techniques, occupancy forecasting, and environmental impact analysis.',
-
     tech: [
       'Python',
       'Flask',
-      'Machine Learning',
       'React',
+      'Machine Learning',
       'Azure',
     ],
-
-    type: 'Artificial Intelligence',
-
+    type: '🌱 AI Product',
     year: '2026',
-
-    status: 'Completed',
-
-    github:
-      'https://github.com/DevKumarTarkar/EcoStay-AI',
-
-    live: null,
+    status: 'Prototype',
+    github: 'https://github.com/DevKumarTarkar/EcoStay-AI',
+    live: '#',
   },
 
   {
     id: '04',
-
     name: 'Power BI Sales Dashboard',
-
     image: import.meta.env.BASE_URL + 'projects/powerbi.jpg',
-
     tagline: 'Interactive Business Intelligence Dashboard',
-
     description:
-      'Designed interactive Power BI dashboards to visualize sales performance, customer behavior, KPIs, and business trends for data-driven decision-making.',
-
+      'Designed interactive Power BI dashboards to visualize sales performance, KPIs, customer behavior, and business trends for data-driven decision making.',
     tech: [
       'Power BI',
       'SQL',
@@ -360,17 +325,11 @@ const portfolioData = {
       'DAX',
       'Data Visualization',
     ],
-
-    type: 'Business Intelligence',
-
+    type: '📈 Business Intelligence',
     year: '2025',
-
-    status: 'Completed',
-
-    github:
-      'https://github.com/DevKumarTarkar/PowerBI-Sales-Dashboard',
-
-    live: null,
+    status: 'Live Dashboard',
+    github: 'https://github.com/DevKumarTarkar/PowerBI-Sales-Dashboard',
+    live: '#',
   },
 ],
  
@@ -508,7 +467,7 @@ const portfolioData = {
   
   contact: {
     email: 'devkumartarkar3@gmail.com',
-    phone: '+91 827331XXXX',
+    phone: "Available on Request",
     socials: [
       { label: 'LinkedIn', handle: '@dev-kumar-tarkar-55189731a', url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/' },
       { label: 'GitHub', handle: '@DevKumarTarkar', url: 'https://github.com/DevKumarTarkar' },
