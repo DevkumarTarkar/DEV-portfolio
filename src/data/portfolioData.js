@@ -1,107 +1,188 @@
+
 const portfolioData = {
   hero: {
     welcome: '✦ WELCOME TO MY UNIVERSE',
     firstName: 'Dev Kumar',
     lastName: 'Tarkar',
-    roles: ['AI & Machine Learning Engineer', 'Data Science Enthusiast', 'Full Stack Developer'],
+    roles: [
+      'AI & Machine Learning Engineer',
+      'Data Science Enthusiast',
+      'Full Stack Developer',
+    ],
     description:
       'Building intelligent AI applications and modern web solutions using Machine Learning, Computer Vision, Data Science, Cloud, and Full Stack Development.',
-    resumeUrl: 'https://drive.google.com/file/d/1XRdeJ53xZgsILmFEwtrnXyVt8bh00MOh/view?usp=sharing',
+
+    resumeUrl:
+      'https://drive.google.com/file/d/1XRdeJ53xZgsILmFEwtrnXyVt8bh00MOh/view?usp=sharing',
+
     socials: [
       { label: 'GitHub', url: 'https://github.com/DevKumarTarkar' },
-      { label: 'LinkedIn', url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/' },
+      {
+        label: 'LinkedIn',
+        url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/',
+      },
       { label: 'LeetCode', url: 'https://leetcode.com/u/Dev_2025/' },
-      { label: 'Instagram', url: 'https://instagram.com/dev_rajput_9634' },
+      {
+        label: 'Instagram',
+        url: 'https://instagram.com/dev_rajput_9634',
+      },
     ],
   },
-  ```javascript
-about: {
-  intro:
-    'I am a B.Tech Computer Science Engineering (AI & ML) student passionate about building intelligent applications using Artificial Intelligence, Machine Learning, Computer Vision, Data Science, and Full Stack Development.',
 
-  study:
-    'Currently pursuing my degree at GLA University, Mathura, I enjoy transforming ideas into real-world AI solutions through modern technologies, cloud platforms, and scalable software engineering practices.',
+  about: {
+    intro:
+      'I am a B.Tech Computer Science Engineering (AI & ML) student passionate about building intelligent applications using Artificial Intelligence, Machine Learning, Computer Vision, Data Science, and Full Stack Development.',
 
-  quote:
-    'Building intelligent solutions that transform data into meaningful experiences and innovative digital products.',
+    study:
+      'Currently pursuing my degree at GLA University, Mathura, I enjoy transforming ideas into real-world AI solutions through modern technologies, cloud platforms, and scalable software engineering practices.',
 
-  tags: [
-    'Artificial Intelligence',
-    'Machine Learning',
-    'Deep Learning',
-    'Computer Vision',
-    'Full Stack Development',
-    'Python',
-    'React.js',
-    'FastAPI',
-    'Azure AI',
-    'Oracle Cloud',
-    'Power BI',
-    'SQL'
-  ],
+    quote:
+      'Building intelligent solutions that transform data into meaningful experiences and innovative digital products.',
 
-  timeline: [
-```
+    tags: [
+      'Artificial Intelligence',
+      'Machine Learning',
+      'Deep Learning',
+      'Computer Vision',
+      'Full Stack Development',
+      'Python',
+      'React.js',
+      'FastAPI',
+      'Azure AI',
+      'Oracle Cloud',
+      'Power BI',
+      'SQL',
+    ],
 
-  {
-    year: '2024',
-    event: 'Started B.Tech Computer Science Engineering (AI & ML) at GLA University, Mathura.'
-  },
-  {
-    year: '2024',
-    event: 'Earned Microsoft Certified: Azure Fundamentals (AZ-900), building a strong foundation in cloud computing.'
-  },
-  {
-    year: '2025',
-    event: 'Earned Microsoft Azure AI Fundamentals, Azure Data Fundamentals, Oracle AI Foundations, Oracle Generative AI, and Oracle Data Platform certifications.'
-  },
-  {
-    year: '2025',
-    event: 'Built interactive Power BI dashboards for sales performance, customer insights, and data visualization.'
-  },
-  {
-    year: '2026',
-    event: 'Built EcoStay AI, an AI-powered platform promoting sustainable tourism and eco-friendly stays.'
-  },
-  {
-    year: '2026',
-    event: 'Developed MaskTIF, a Deep Learning system for masked thermal infrared face recognition.'
-  },
-  {
-    year: '2026',
-    event: 'Created Telecom Customer Churn Prediction & Customer Segmentation using Machine Learning.'
-  },
-],
-
-
-```
+    timeline: [
+      {
+        year: '2024',
+        event:
+          'Started B.Tech Computer Science Engineering (AI & ML) at GLA University, Mathura.',
+      },
+      {
+        year: '2024',
+        event:
+          'Earned Microsoft Certified: Azure Fundamentals (AZ-900), building a strong foundation in cloud computing.',
+      },
+      {
+        year: '2025',
+        event:
+          'Earned Microsoft Azure AI Fundamentals, Azure Data Fundamentals, Oracle AI Foundations, Oracle Generative AI, and Oracle Data Platform certifications.',
+      },
+      {
+        year: '2025',
+        event:
+          'Built interactive Power BI dashboards for sales performance, customer insights, and data visualization.',
+      },
+      {
+        year: '2026',
+        event:
+          'Built EcoStay AI, an AI-powered platform promoting sustainable tourism and eco-friendly stays.',
+      },
+      {
+        year: '2026',
+        event:
+          'Developed MaskTIF, a Deep Learning system for masked thermal infrared face recognition.',
+      },
+      {
+        year: '2026',
+        event:
+          'Created Telecom Customer Churn Prediction & Customer Segmentation using Machine Learning.',
+      },
+    ],
 
     stats: [
-      { value: '3 Years', label: 'AI & ML Journey' },
-      { value: '10+', label: 'Projects Built' },
-      { value: '5+', label: 'Cloud & Deployment Workflows' },
-      { value: 'B.Tech', label: 'Computer Science Engineering' },
+      { value: '15+', label: 'Projects Completed' },
+      { value: '7+', label: 'Professional Certifications' },
+      { value: '3+', label: 'Hackathons & Events' },
+      { value: 'B.Tech', label: 'CSE (AI & ML)' },
     ],
   },
+
   skills: {
     groups: [
-      { category: 'Languages', icon: '{ }', skills: ['Python', 'Java', 'C++', 'JavaScript', 'SQL'] },
-      { category: 'AI / ML', icon: '∿', skills: ['PyTorch', 'TensorFlow', 'Scikit-learn', 'OpenCV', 'Pandas', 'NumPy'] },
-      { category: 'Web & APIs', icon: '◈', skills: ['React', 'Flask', 'FastAPI', 'REST APIs', 'Docker'] },
-      { category: 'Cloud & Tools', icon: '↑', skills: ['Azure', 'Oracle Cloud', 'Git', 'GitHub', 'Power BI'] },
-      { category: 'Data & Analytics', icon: '◉', skills: ['Data Modeling', 'Data Visualization', 'SQL Analytics', 'Power BI', 'Excel'] },
-      { category: 'Development', icon: '⟳', skills: ['Full Stack Development', 'System Design', 'Microservices', 'CI/CD'] },
+      {
+        category: 'Languages',
+        icon: '{ }',
+        skills: [
+          'Java',
+          'Python',
+          'C',
+          'SQL',
+          'JavaScript',
+          'HTML',
+          'CSS',
+        ],
+      },
+      {
+        category: 'Frameworks & Libraries',
+        icon: '∿',
+        skills: [
+          'Flask',
+          'PyTorch',
+          'NumPy',
+          'Pandas',
+          'Matplotlib',
+          'Scikit-learn',
+        ],
+      },
+      {
+        category: 'Tools',
+        icon: '◈',
+        skills: [
+          'Git',
+          'GitHub',
+          'MySQL',
+          'Power BI',
+          'Docker',
+          'Jupyter Notebook',
+          'VS Code',
+          'Arduino IDE',
+        ],
+      },
+      {
+        category: 'Platforms',
+        icon: '↑',
+        skills: ['Windows', 'Linux', 'Google Colab', 'ThingWorx'],
+      },
+      {
+        category: 'Core Concepts',
+        icon: '◉',
+        skills: [
+          'Data Structures',
+          'Algorithms',
+          'OOP',
+          'DBMS',
+          'Operating Systems',
+          'CI/CD',
+        ],
+      },
+      {
+        category: 'Data Skills',
+        icon: '⟳',
+        skills: [
+          'Data Analysis',
+          'Data Cleaning',
+          'Data Visualization',
+          'EDA',
+          'Dashboard Development',
+        ],
+      },
     ],
+
     certifications: [
       { title: 'Microsoft Azure Fundamentals', url: '' },
       { title: 'Microsoft Azure AI Fundamentals', url: '' },
       { title: 'Microsoft Azure Data Fundamentals', url: '' },
       { title: 'Oracle OCI AI Foundations Associate', url: '' },
-      { title: 'Oracle Generative AI', url: '' },
+      { title: 'Oracle Generative AI Professional', url: '' },
       { title: 'Oracle Data Platform', url: '' },
       { title: 'NPTEL Software Engineering', url: '' },
     ],
   },
+
+
   projects: [
     {
       id: '01',
@@ -318,7 +399,7 @@ about: {
     },
   ],
   contact: {
-    email: 'devkumrtarkar3@gmail.com',
+    email: 'devkumartarkar3@gmail.com',
     phone: '+91 827331XXXX',
     socials: [
       { label: 'LinkedIn', handle: '@dev-kumar-tarkar-55189731a', url: 'https://www.linkedin.com/in/dev-kumar-tarkar-55189731a/' },
